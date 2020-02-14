@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800|Open+Sans:400,600,700,800&display=swap');
+
+
+/*font-family: 'Montserrat', sans-serif;
+ font-family: 'Open Sans', sans-serif; */
+ *{
+	 margin: 0;
+	 padding: 0;
+	 list-style: none;
+	 text-decoration: none;
+ }
+ h1{
+	 color: #28377e;
+	 font-size: 30px;
+	 font-family: 'Montserrat', sans-serif;
+	 text-transform: uppercase;
+ }
+ p{
+	 color: #b0b0b1;
+	 font-size: 15px;
+	 font-family: 'Open Sans', sans-serif;
+ }
+ .container{
+	 width: 90%;
+	 margin: auto;
+	}
+ header{
+    display: flex;
+    justify-content: space-between;
+    /* background: red; */
+    height: 70px;
+    align-items: center;
+}
+
+ .logo{
+	 width: 20%;
+	 
+ }
+ .nav{
+	 width: 60%;
+	 
+ }
+ .nav ul{
+
+display: flex;
+
+justify-content: flex-end;
+
+}
+ .nav ul li{
+
+margin-left: 30px;
+
+}
+ .nav ul li a{
+
+font-size: 18px;
+
+color: #204f87;
+
+font-weight: 600;
+}
+
+.banner{
+	background: url(../images/banner.png);
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.content{
+    width: 473px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content h1{
+	color: #ffffff;
+	font-size: 48px;
+	fon;
+}
+.icon{
+
+/* position: absolute; */
+
+content: "\f078";
+
+position: absolute;
+
+/* top: 70%; */
+
+bottom: 20%;
+
+left: 50%;
+
+transform: translate(-50%, -20%);
+animation: icon-ani 1s linear infinite;
+animation-direction: alternate;
+}
+.icon i{
+	
+color: #fff;
+	
+font-size: 30px;
+}
+
+@keyframes icon-ani{
+	0%{
+		
+			transform: translate(-50%,  0%);
+		
+	}
+	100%{
+		
+			transform: translate(-50%, -100%);
+		
+	}
+}
+.who-we-are-content{
+	margin-top: 70px;
+	width: 50%;
+	float: left;
+	position: relative;
+
+}
+.who-we-are-content::before{
+	content: "";
+	position: absolute;
+	width: 73px;
+	height: 5px;
+	background-color: #f15726;
+	top: -5px;
+}
+.who-we-are-content::after{
+	content: "";
+
+}
+.who-we-are-content h1{
+
+}
+.who-we-are-content p{
+	margin: 20px 0px;
+	padding-right: 100px;
+}
+.who-we-are-img{
+	width: 50%;
+	float: right;
+}
+.who-we-are-img img{
+	width: 50%;
+	margin-top: 50px;
+}
