@@ -1,1 +1,1 @@
-# Layer-psd-to-html-file-part-1-
+# Layer-psd-to-html-file
